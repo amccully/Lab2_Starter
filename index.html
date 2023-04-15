@@ -16,9 +16,9 @@
     </header>
     <nav class="menu">
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Weekly Updates</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">Contact</a></li>
+            <li><a href="/">Weekly Updates</a></li>
         </ul>
     </nav>
     <hr>
@@ -95,7 +95,7 @@
     <hr>
     <section>
         <h3>Meeting media</h3>
-        <video controls width="1080" src="media/first_meeting.mp4" type="video/mp4"></video>
+        <video controls width="1080" src="media/first_meeting.mp4"></video>
         <br>
         <audio controls src="media/meeting_audio.mp3"></audio>
     </section>
@@ -104,15 +104,15 @@
         <h3>Short form</h3>
         <form>
             <fieldset>
-                <label for="employee_name">Name</label>
+                <label>Name</label>
                 <input type="text" name="employee_name"><br><br>
 
-                <label for="absence_date">Date of absence</label>
+                <label>Date of absence</label>
                 <input type="date" name="absence_date"
                 value="2023-04-10"
                 min="2023-04-10" max="2023-04-14"><br><br>
 
-                <label for="absence_day">What day was this on?</label>
+                <label>What day was this on?</label>
                 <input list="absence_days" type="search"><br><br>
                 <datalist id="absence_days">
                     <option value="Monday">
@@ -124,13 +124,13 @@
 
                 <label>Which ways can you get to work?</label><br>
                 <input type="checkbox" name="bike" value="Bike">
-                <label for="bike"> I can bike</label><br>
+                <label> I can bike</label><br>
                 <input type="checkbox" name="car" value="Car">
-                <label for="car"> I can drive</label><br>
+                <label> I can drive</label><br>
                 <input type="checkbox" name="bus" value="Boat">
-                <label for="bus"> I can bus</label><br><br>
+                <label> I can bus</label><br><br>
 
-                <label for="preferred_transport">Which method of transport do you use most often?</label>
+                <label>Which method of transport do you use most often?</label>
                 <select name="preferred_transport">
                     <option value="bike">Bike</option>
                     <option value="car">Car</option>
@@ -145,7 +145,7 @@
                 <input type="radio" name="department" value="Marketing">
                 <label>Marketing</label><br><br>
 
-                <label for="absence_reason">Reason for being gone?</label><br>
+                <label>Reason for being gone?</label><br>
                 <textarea name="absence_reason" rows="4" cols="50"></textarea><br><br>
 
                 <button type="button">Submit</button>
